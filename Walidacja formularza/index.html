@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- część <head> zawiera informacje dla przeglądarki -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja formularza</title>
+</head>
+<body>
+    <!-- część <body> zawiera elementy html wyświetlane użytkownikowi w oknie przeglądarki-->
+     <header>
+        <hi>Formularz rejestracyjny</hi>
+     </header>   
+     <main>
+        <form>
+            <div class="box">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" placeholder="Podaj nazwę użytkownika">
+                <p class="error_message"></p>
+            </div>
+        <div class="box">
+            <label for="email">Adres email:</label>
+            <input type="email" id="email" placeholder="Podaj email">
+            <p class="error_message"></p>
+        </div>
+        <div class="box">
+            <label for="password1">Hasło:</label>
+            <input type="password" id="password1" required placeholder="Podaj hasło">
+            <p class="error_message"></p>
+        </div>
+        <div class="box">
+            <label for="password2">Powtórz hasło:</label>
+            <input type="password" id="password2" required placeholder="Powtórz hasło">
+            <p class="error_message"></p>
+        </div>
+        <div class="box">
+            <input type="checkbox" id="terms">
+            <label for="terms">Zapoznałem/am się z regulaminem i akceptuję go.</label>
+            <p class="error_message"></p>
+        </div>    
+        <div class="buttons">
+            <input type="reset" value="resetuj formularz" class="reset">
+            <input type="submit" value="wyślij formularz" class="submit">
+        </div>
+        </form>
+     </main>
+     <footer>
+        <p>Projekt WSB Merito Gdynia 2025</p>
+     </footer>
+     <script src="./script.js"></script>
+</body>
+</html>
