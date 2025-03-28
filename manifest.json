@@ -1,0 +1,17 @@
+{
+    "name": "Przewodnik po Londynie",
+    "short_name": "LondonAPP",
+    "theme_color": "#873694",
+    "background_color": "#c71ec0",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/ZTI",
+    "icons": [
+        {
+            "src": "pwalogo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+  }
